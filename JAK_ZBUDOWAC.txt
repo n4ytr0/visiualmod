@@ -1,0 +1,9 @@
+1. Zaloz konto na github.com i stworz nowe repozytorium (New repository, nazwa dowolna).
+2. Kliknij "uploading an existing file" i przeciagnij tam WSZYSTKIE pliki z tego folderu
+   (zawartosc, nie sam folder). Folder .github tez musi sie wgrac.
+   Jesli .github sie nie wgral: Add file > Create new file, wpisz nazwe
+   .github/workflows/build.yml i wklej zawartosc tego pliku.
+3. Kliknij "Commit changes".
+4. Wejdz w zakladke Actions, poczekaj ok. 3-5 minut az zrobi sie zielony ptaszek.
+5. Kliknij ostatni przebieg, na dole w "Artifacts" pobierz "visualsmod" - w srodku jest .jar.
+6. .jar wrzuc do .minecraft/mods (potrzebny Fabric Loader + Fabric API 1.21.4).
